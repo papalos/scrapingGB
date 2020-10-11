@@ -7,7 +7,7 @@ p = {
     'user_id': 486973140,
     'fields': 'true',
     'v': '5.52',
-    'access_token': '0a1c297fd81492ff875074265ec55892e47f40ba9ae3e6642a5aee455041fddd6cc5f519ab7d956a71d22'
+    'access_token': 'тут должен быть токен'
     }
 j = requests.get('https://api.vk.com/method/friends.get', params=p).json()
 
